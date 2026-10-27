@@ -1,0 +1,59 @@
+.sidebar {
+    display: none !important;
+}
+.main-panel{
+    width: 100% !important;
+}
+.content-wrapper{
+    background-color: #FFF !important;
+}
+.conteudo{
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.modulosTitulo{
+    color: #0b679c !important;
+    font-size: 15px;
+    padding: 0 !important;
+}
+.modulosTitulo:hover{
+    text-decoration: underline;
+}
+.active{
+    background-color: #dbf4ff !important;
+}
+.dropdown-item{
+    color: #5d5d5d !important;
+    padding: 12px 25px !important;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 14px !important;
+}
+.iconePlay{
+    color: #00aeff !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.aulaAssistida{
+    color: #AAA !important;
+}
+.iconeAssistido{
+    color: #0fc02e !important;
+}
+
+#videoContainer{
+    position: relative
+}
+#videoContainer video{
+    position: relative;
+    z-index: 100;
+}
+#videoContainer .textProximoAula{
+    position: absolute;
+    z-index: 150;
+    left: 10px;
+    top: 10px;
+    background: #000;
+    color: #FFF;
+    padding: 10px;
+}

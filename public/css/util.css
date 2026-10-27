@@ -1,0 +1,380 @@
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+.cf{
+    *zoom:1;
+}
+
+.tableLista td{
+    border-top: 1px solid #cfcfcf !important;
+}
+
+/* font- size */
+.fontSize-2em{
+    font-size: 2em !important;
+}
+.fontSize-1_5em{
+    font-size: 1.5em !important;
+}
+.fontSize-10px{
+    font-size: 10px !important;
+}
+
+.fontSize-11px{
+    font-size: 11px !important;
+}
+
+.fontSize-13px{
+    font-size: 13px !important;
+}
+
+.fontSize-14px{
+    font-size: 14px !important;
+}
+
+.fontSize-15px{
+    font-size: 15px !important;
+}
+
+.fontSize-18px{
+    font-size: 18px !important;
+}
+.fontSize-20px{
+    font-size: 20px !important;
+}
+
+/* paddings */
+.padding02em{
+    padding: 0.2em;
+}
+.paddingBottom15px{
+    padding-bottom: 15px;
+}
+
+
+/* colors */
+.color_FFF{
+    color: #FFF;
+}
+.color_546e7a{
+    color: #546e7a;
+}
+.color_365f80{
+    color: #365f80;
+}
+.color_333{
+    color: #333333;
+}
+.color_01579b{
+    color: #01579b;
+}
+.color_CCC{
+    color: #ccc;
+}
+.color_C5C5C5{
+    color: #c5c5c5;
+}
+.color_red{
+    color: red;
+}
+.color_green{
+    color: green;
+}
+.color_yellow{
+    color: yellow;
+}
+.color_orange{
+    color: orange;
+}
+.color_BE8900{
+    color: #be8900;
+}
+.color_3e7099{
+    color: #3e7099;
+}
+
+    /* border */
+.border1pxSolidRGBA0125{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.border1pxSolid_CCC{
+    border: 1px solid #ccc;
+}
+.border1pxSolidRed{
+    border: 1px solid red;
+}
+.border1pxSolidGreen{
+    border: 1px solid green;
+}
+.border1pxDashedCCC{
+    border-bottom: 1px dashed #ccc;
+}
+    /* line height */
+.line-heigt-1em{
+    line-height: 1em;
+}
+
+/* Background */
+.background_81c784 {
+    background: #81c784  !important;
+}
+.background_ffd7d7 {
+    background: #ffd7d7  !important;
+}
+.background_30516f {
+    background: #30516f ;
+}
+.background_1c2331 {
+    background: #1c2331 ;
+}
+.background_fff68f {
+    background: #fff68f;
+}
+.background_bddaff{
+     background-color: #bddaff !important;
+ }
+.background_a1d5ff{
+    background-color: #a1d5ff !important;
+}
+.background_e65251{
+    background-color: #e65251 !important;
+}
+.background_3E4551{
+    background-color: #3E4551 !important;
+}
+.background_287ec3{
+    background-color: #287ec3 !important;
+}
+.background_8f8f8f{
+    background-color: #8f8f8f !important;
+}
+.background_e5e5e5{
+    background-color: #e5e5e5 !important;
+}
+.background_ffffc4{
+    background-color: #ffffc4 !important;
+}
+.background_fff{
+    background-color: #fff !important;
+}
+.background_f9f9f9 {
+    background-color: #f9f9f9 !important;
+}
+
+/* transfom */
+.rotate180AndFlipX1{
+    transform: rotate(180deg) scaleX(1);
+}
+
+
+/*      display     */
+.displayNone{
+    display: none;
+}
+
+/*      width     */
+.width100Percent{
+    width: 100% !important;
+}
+
+/*      tables      */
+.btn-acoes a{
+    font-size: 1.8em;
+}
+.table th, .table td{
+    padding: 15px 10px !important;
+}
+/* overflow */
+.overflowScroll{
+    overflow-x: scroll;
+}
+/* __________________________________________________________________________________________ */
+
+.titlePage{
+    background: rgba(228, 228, 228, 0.46);
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+#addFone{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    margin-right: 0.3em;
+    color: #365f80;
+}
+#addFoneEdit{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    margin-right: 1.3em;
+    color: #365f80;
+}
+.remove_field{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+.remove_fieldTelefone{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+#addArtigo{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    margin-right: 0.3em;
+    color: #365f80;
+}
+#addArtigoEdit{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    margin-right: 1.3em;
+    color: #365f80;
+}
+.remove_fieldArtigo{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+.cursorPointer{
+    cursor: pointer !important;
+}
+#addFoto{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    color: #365f80;
+}
+.removeFieldFone{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+#addDoc{
+    float: right;
+    margin-top: -1.14em;
+    font-size: 1.8em;
+    margin-right: -1em;
+    color: #365f80;
+}
+.removeFieldDoc{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: -1.1em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+
+
+
+/* __________________________________________________________________________________________ */
+.circle strong {
+    position: absolute;
+    top: 60px;
+    left: 0.8em;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.circle {
+    width: 100px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.btn-circle i{
+    font-size: 18px !important;
+    line-height: inherit !important;
+}
+
+/* stilo dos links de paginacao */
+#links li {
+    display: inline !important;
+    font-size: 12px !important;
+}
+
+#links li a {
+    color: #fff !important;
+    padding: 8px 10px !important;
+    text-decoration: none !important;
+    transition: background-color .3s !important;
+    border: 1px solid #ddd !important;
+    background-color: #5e666f !important;
+}
+
+#links li.active {
+    margin-top: -0.55em;
+    color: #5e666f !important;
+    padding: 6px 10px !important;
+    text-decoration: none !important;
+    transition: background-color .3s !important;
+    border: 1px solid #ddd !important;
+    background-color: #dddddd !important;
+}
+
+#links li a:hover {
+    background-color: #c8c8c8 !important;
+}
+
+#links li.disabled {
+    padding: 1px 1px !important;
+}
+
+/* __________________________________________________________________________________________ */
+.text-red {
+     color: red;
+ }
+.text-green {
+    color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+    #spanNomeUser{
+        display: none !important;
+    }
+    #logoSiapenMini{
+        display: none !important;
+    }
+    #liMenuSup{
+        display: block !important;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    #liHelpDesk, #liMensagens, #liNotificacoes, #spanNomeUser{
+        display: none !important;
+    }
+    #liMenuSup{
+        display: block !important;
+    }
+    #ulMenuTop, #divMenuTop{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 385px) {
+    #logoSiapenMini{
+        display: none !important;
+    }
+    .nav .nav-item.dropdown .navbar-dropdown, .navbar-nav .nav-item.dropdown .navbar-dropdown {
+        right: -150px;
+    }
+}

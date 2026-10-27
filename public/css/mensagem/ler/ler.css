@@ -1,0 +1,14 @@
+.dadosMensagem{
+    background: rgba(228, 228, 228, 0.46);
+    padding: 20px 3px;
+    border-radius: 3px;
+    font-size: 13px !important;
+}
+
+.corpoMsg p{
+    margin-top: 25px;
+    font-size: 15px !important;
+}
+.msgAnexo:hover{
+    text-decoration: underline;
+}

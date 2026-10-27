@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(360deg, #8e9eab, #eef2f3)  !important;
+    height: 100% !important;
+    margin: 0  !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.panel-default>.panel-heading {
+    color: #FFF !important;
+}
+.navbar-default{
+    background: linear-gradient(120deg, #1C2331, #3F729B) !important;
+}
+.navbar-default .navbar-brand{
+    font-weight: bold !important;
+    color: #FFF !important;
+}
+.btn-primary{
+    background-color: #212121 !important;
+    border-color: #2E2E2E !important;
+}
+.imgLogo{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.imgLogo img{
+    width: 15em;
+}
+.panel-default{
+    border-color: #a9a9a9 !important;
+}
+.panel-default>.panel-heading{
+    border-color: #1C2331 !important;
+    text-align: center;
+    background-color: #1C2331 !important;
+}
+.panel-default>.panel-heading{
+    font-weight: bold !important;
+}
+@media only screen and (max-width: 742px) {
+    #app .navbar-default{
+        height: 150px !important;
+    }
+}

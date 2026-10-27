@@ -1,0 +1,65 @@
+.resultSearch{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearch:hover{
+    background-color: #e5e8f1;
+
+}
+
+.resultSearchAgente{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearchAgente:hover{
+    background-color: #e5e8f1;
+
+}
+
+#filter-records{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#filter-records h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#divRetornoAgentes{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#fdivRetornoAgentes h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}

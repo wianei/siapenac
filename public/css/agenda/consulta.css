@@ -1,0 +1,17 @@
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #30516f solid;
+}
+
+.row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #c4c4c4 solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+.btBuscaConsulta{
+    height: 3em;
+    margin-top: 1.5em !important;
+}

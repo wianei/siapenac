@@ -1,0 +1,15 @@
+.table td {
+    border-top: 1px solid #cfcfcf !important;
+}
+.trMensagem{
+    border: 1px solid #e8e8e8;
+}
+.lida{
+    color: #777 !important;
+}
+.lida a{
+    color: #777 !important;
+}
+.naoLida{
+    color: #3c5d84;
+}

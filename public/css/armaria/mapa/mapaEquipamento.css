@@ -1,0 +1,22 @@
+.result_table_col {
+    min-width:130px !important;
+    max-width: 130px;
+    word-wrap: break-word !important;
+
+}
+#tableMapaArmamento tr td{
+    text-align: center;
+}
+
+#tableMapaArmamento tr td:first-child{
+    font-weight: 600;
+}
+
+#tableMapaArmamento td:nth-child(odd) {
+    background:#e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#tableMapaArmamento td:nth-child(even) {
+    background:#fff;
+}

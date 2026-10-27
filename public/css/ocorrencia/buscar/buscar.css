@@ -1,0 +1,158 @@
+.resultSearch{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearch:hover{
+    background-color: #e5e8f1;
+
+}
+
+.resultSearchAgente{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearchAgente:hover{
+    background-color: #e5e8f1;
+
+}
+
+#filter-records{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#filter-records h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#divRetornoAgentes{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#divRetornoAgentes h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+/*  visita  */
+.resultSearchVisita{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearchVisita:hover{
+    background-color: #e5e8f1;
+
+}
+#filter-records-visita{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#filter-records-visita h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/*  !visita  */
+
+/*  advogado  */
+.resultSearchAdvogado{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearchAdvogado:hover{
+    background-color: #e5e8f1;
+
+}
+#filter-records-advogado{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#filter-records-advogado h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+/*  !advogado  */
+
+#tableInternos, .titleInterno, #tableAgentes, .titleAgente {
+    display: none;
+}
+
+.fileDownload{
+    font-size: 1.2em !important;
+    padding: 0.2em !important;
+}
+
+.ocorrencia{
+    padding: 2em 0;
+    border: 1px dashed #d1d1d1;
+}
+.tittleOcorrencia{
+    background-color: #d6e8f9;
+    color: #308ee0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #b3daff;
+    border-top: 1px solid #b3daff;
+    text-align: center;
+}
+.textP15px p{
+    font-size: 15px !important;
+}

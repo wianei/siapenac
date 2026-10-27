@@ -1,0 +1,52 @@
+.destinatarios{
+    border: 1px solid #cdcdcd;
+    padding: 1.1em;
+}
+.destinatariosDiv{
+    display: inline-block;
+    background-color: #e6eff6;
+    padding: 0.5em;
+    border: 1px solid #b6dfff;
+    color: #005a9e;
+    margin-right: 0.3em;
+}
+#divPresidio, #divPavilhao, #divRowAgentes, .btnAddDestinatario{
+    display: none;
+}
+.btnAddDestinatario{
+    margin-top: 1.6em;
+}
+
+.resultSearchAgente{
+    cursor: pointer;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.resultSearchAgente:hover{
+    background-color: #e5e8f1;
+
+}
+
+
+#divRetornoAgentes{
+    height: 350px;
+    overflow: scroll;
+    position: absolute;
+    display: none;
+    left: 0;
+    background: #fff;
+    width: calc(100% - 10px) !important;
+    z-index: 1 !important;
+    margin-left: 0.3em;
+    border-bottom: 1px solid #7d7d7d;
+    border-left: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#fdivRetornoAgentes h6{
+    font-family: Arial, Helvetica, sans-serif !important;
+}

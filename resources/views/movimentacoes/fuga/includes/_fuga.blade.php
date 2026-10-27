@@ -1,0 +1,63 @@
+<form id="fugaForm" action="{{ route('movimentacoes.fugaStore') }}" method="post" enctype="multipart/form-data" class="mb-4 mt-5">
+    {!! csrf_field() !!}
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="interno">Nome dos internos</label>
+            <input type="text" name="interno" class="form-control" id="interno" placeholder="Informe o nome dos internos" autocomplete="off">
+            <div class="form-group col-md" id="filter-records"></div>
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="data">Data da Fuga</label>
+            <input type="text" name="data" class="form-control" id="data" placeholder="Data da Fuga" autocomplete="off" required>
+        </div>
+
+        <div class="form-group col-3">
+            <label for="hora">Horário da Fuga</label>
+            <input type="text" name="hora" class="form-control" id="hora" placeholder="Hora" autocomplete="off" required>
+        </div>
+    </div>
+
+    <div id="tableInternos" class="table-responsive">
+        <table class="table mb-3">
+            <thead class="background_30516f color_FFF">
+            <tr class="">
+                <th scope="col">Prontuário</th>
+                <th scope="col">Foto</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Facção</th>
+                <th scope="col">Liderança</th>
+                <th scope="col">Localização</th>
+                <th scope="col">Ações</th>
+            </tr>
+            </thead>
+            <tbody id="retornoInterno">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="motivo">Observações</label>
+            <input type="motivo" name="motivo" class="form-control" id="motivo" placeholder="Observações" autocomplete="off">
+        </div>
+        <div class="form-group col-md">
+            <label for="documentos">Documentos</label>
+            <input type="file" name="documentos[]" class="form-control" id="documentos" accept="application/pdf" multiple>
+        </div>
+    </div>
+    <div id="flashRetorno">
+
+    </div>
+    <button id="fugaBtn" type="submit" onclick="return confirm('Deseja confirmar o registro?');" class="btn btn-primary"><i class="fas fa-check"></i> Registrar Fuga</button>
+</form>
+@push('css')
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+@endpush
+@push('script')
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="{{ asset('js/outros/jquery.mask.js') }}"></script>
+<script src="{{ asset('js/outros/buscaInterno.js') }}"></script>
+@endpush
